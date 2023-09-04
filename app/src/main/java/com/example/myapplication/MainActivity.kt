@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity(), AdapterCharacter.Listener, GestureDete
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.userName.text = UserName
 
 
         getData()
@@ -60,10 +59,7 @@ class MainActivity : AppCompatActivity(), AdapterCharacter.Listener, GestureDete
                 }
                 progressBarLoad.visibility = View.INVISIBLE
             }
-            imgSetting.setOnClickListener()
-            {
-               //открытие по клику
-            }
+
         }
     }
 
